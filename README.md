@@ -1,6 +1,4 @@
-# CODE 1	 
-
-## Introduction to Creative Programming
+# CODE 1 - Introduction to Creative Programming
 
 Parsons School of Design / The New School
 
