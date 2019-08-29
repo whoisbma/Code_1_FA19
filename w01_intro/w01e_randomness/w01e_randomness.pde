@@ -15,6 +15,6 @@ void draw() {
   // set the rgb channels of the stroke color to random values from 0-255
   stroke(random(255), random(255), random(255));
   
-  // draw a line from the center to a random position on the canvas
-  line(width/2, height/2, random(width), random(height));
+  // draw a line from the mouse to a random position on the canvas
+  line(mouseX, mouseY, random(width), random(height));
 }
