@@ -1,5 +1,4 @@
-// functions with arguments
-// code 1 - fall 2018
+// code 1 week 3
 // bryan ma
 
 // this code demonstrates defining a function with arguments to customize behavior.

@@ -1,5 +1,4 @@
-// functions with arguments pt2
-// code 1 - fall 2018
+// code 1 week 3
 // bryan ma
 
 // this code is an iteration on the last sketch. 
