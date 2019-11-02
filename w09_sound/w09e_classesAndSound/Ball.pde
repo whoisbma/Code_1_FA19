@@ -15,8 +15,7 @@ class Ball {
     r = random(MIN_RADIUS, MAX_RADIUS);
     c = random(100, 250);
     // notice that i pass the applet instance this to the class in the main sketch
-    int whichFile = int(random(1, 6));
-    sfx = new SoundFile(appletInstance, whichFile + ".aif");
+    sfx = new SoundFile(appletInstance, "2.aif");
   }
 
   void update() {
@@ -36,8 +35,9 @@ class Ball {
 
     if (collision) {
       float soundFreq = map(r, MIN_RADIUS, MAX_RADIUS, 2.0, 0.2);
-      float soundAmp = map(r, MIN_RADIUS, MAX_RADIUS, 0.3, 0.6);
+      float soundAmp = map(r, MIN_RADIUS, MAX_RADIUS, 0.1, 0.6);
       playSound(soundFreq, soundAmp);
+      c = random(100, 250);
     }
   }
 
