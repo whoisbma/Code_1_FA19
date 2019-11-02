@@ -8,7 +8,7 @@
 
 import processing.sound.*;
 
-int NUM_BALLS = 5;
+int NUM_BALLS = 7;
 float MIN_RADIUS = 10;
 float MAX_RADIUS = 70;
 

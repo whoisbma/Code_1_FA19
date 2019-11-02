@@ -14,7 +14,8 @@ class Ball {
     dy = random(-5, 5);
     r = random(MIN_RADIUS, MAX_RADIUS);
     c = random(100, 250);
-    // notice that i pass the applet instance this to the class in the main sketch
+    // notice that i pass the applet instance this to the Ball class in the main sketch
+    // in order to get it here to pass to SoundFile
     sfx = new SoundFile(appletInstance, "2.aif");
   }
 
