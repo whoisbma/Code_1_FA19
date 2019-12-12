@@ -1,5 +1,3 @@
-// 5
-
 // This sketch uses a loop to draw a group of 
 // ellipses. It uses a single float to represent
 // their x positions. Replace this float with an
