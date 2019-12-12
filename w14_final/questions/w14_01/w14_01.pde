@@ -6,7 +6,7 @@
 // and height of the screen.
 
 // when mouseX is at 0, the rect should be red. when mouseX
-// is at width, it should be blue.
+// is at width, it should be blue. (it doesn't matter what colors are in-between.)
 
 // moving the mouse from the left to the right side of the screen
 // should result in the rectangle doing one full rotation (360 degrees).
